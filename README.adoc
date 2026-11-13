@@ -1,0 +1,11 @@
+= fontisan-ruby
+
+Ruby face for the Fontisan Rust engine.
+
+This gem provides the `:native` engine tier for
+https://github.com/fontist/fontisan[fontisan]. It registers itself with
+`Fontisan::Engine.register_tier(:native, ...)`, so fontisan serves requests
+through the compiled Rust extension when this gem is installed.
+
+Work in progress: the gem skeleton and native extension are being added.
+See fontist/fontisan#167.

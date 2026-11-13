@@ -1,0 +1,9 @@
+/.bundle/
+/pkg/
+/tmp/
+/target/
+*.gem
+*.bundle
+*.so
+Gemfile.lock
+.rspec_status
